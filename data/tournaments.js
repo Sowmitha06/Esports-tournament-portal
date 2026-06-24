@@ -1,0 +1,60 @@
+// Seed tournament data
+export const seedTournaments = [
+  {
+    id: 'tn1',
+    name: 'Tamil Nadu Valorant Championship',
+    image: 'https://images.unsplash.com/photo-1542751371-adc38448a05e?w=900&q=80',
+    prizePool: '₹5,00,000',
+    date: '2026-07-12',
+    game: 'Valorant',
+    status: 'Upcoming',
+    registeredTeams: ['Chennai Dragons', 'Coimbatore Warriors'],
+  },
+  {
+    id: 'tn2',
+    name: 'Chennai BGMI Masters',
+    image: 'https://images.unsplash.com/photo-1538481199705-c710c4e965fc?w=900&q=80',
+    prizePool: '₹3,50,000',
+    date: '2026-07-25',
+    game: 'BGMI',
+    status: 'Upcoming',
+    registeredTeams: ['Madurai Titans'],
+  },
+  {
+    id: 'tn3',
+    name: 'Kovai Esports League',
+    image: 'https://images.unsplash.com/photo-1593305841991-05c297ba4575?w=900&q=80',
+    prizePool: '₹2,00,000',
+    date: '2026-06-30',
+    game: 'Valorant',
+    status: 'Registration Open',
+    registeredTeams: [],
+  },
+  {
+    id: 'tn4',
+    name: 'Madurai Gaming Cup',
+    image: 'https://images.unsplash.com/photo-1511512578047-dfb367046420?w=900&q=80',
+    prizePool: '₹1,75,000',
+    date: '2026-08-05',
+    game: 'BGMI',
+    status: 'Registration Open',
+    registeredTeams: ['Trichy Kings'],
+  },
+  {
+    id: 'tn5',
+    name: 'South India Valorant Clash',
+    image: 'https://images.unsplash.com/photo-1560419015-7c427e8ae5ba?w=900&q=80',
+    prizePool: '₹4,00,000',
+    date: '2026-09-01',
+    game: 'Valorant',
+    status: 'Upcoming',
+    registeredTeams: [],
+  },
+]
+
+export const seedSchedule = [
+  { id: 's1', teamA: 'Chennai Dragons', teamB: 'Coimbatore Warriors', date: '2026-06-28', time: '6:00 PM', tournament: 'Kovai Esports League' },
+  { id: 's2', teamA: 'Madurai Titans', teamB: 'Erode Eagles', date: '2026-06-29', time: '7:30 PM', tournament: 'Chennai BGMI Masters' },
+  { id: 's3', teamA: 'Salem Spartans', teamB: 'Trichy Kings', date: '2026-07-02', time: '5:00 PM', tournament: 'Tamil Nadu Valorant Championship' },
+  { id: 's4', teamA: 'Chennai Dragons', teamB: 'Trichy Kings', date: '2026-07-04', time: '8:00 PM', tournament: 'Madurai Gaming Cup' },
+]
